@@ -28,9 +28,10 @@ header nav a {
 	color: seashell;
 	padding: 20px 10px;
 }
-.mission-container {
+.main-container {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 .mission {
 	display: flex;
@@ -46,4 +47,27 @@ header nav a {
 	margin: 0;
 	padding: 10px;
 	width: 1200px;
+}
+.tea-month-container {
+	display: flex;
+	flex-direction: column;
+	width: 1000px
+}
+#tea-month {
+	margin-top: 60px;
+}
+.tea-month-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.tea-month-images img {
+	display: flex;
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+	padding: 5px;
+}
+.tea-image span {
+	margin-top: 10px;
 }
