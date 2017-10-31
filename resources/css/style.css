@@ -71,3 +71,22 @@ header nav a {
 .tea-image span {
 	margin-top: 10px;
 }
+.locations-container {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/img-locations-background.jpg");
+	padding-top: 80px;
+	margin-top: 80px;
+	height: 500px;
+	width: 1200px;
+}
+.location-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.item {
+	background-color: black;
+	width: 300px;
+	margin: 15px 40px;
+}
