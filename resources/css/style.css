@@ -90,3 +90,10 @@ header nav a {
 	width: 300px;
 	margin: 15px 40px;
 }
+.info {
+	height: 200px;
+}
+.copyright {
+	text-align: left;
+	padding-left: 20px;
+}
